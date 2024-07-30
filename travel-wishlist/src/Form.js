@@ -15,7 +15,6 @@ function DestinationForm({ onAdd }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      {/* Input fields for name, country, and description */}
       <button type="submit">Add Destination</button>
     </form>
   );
